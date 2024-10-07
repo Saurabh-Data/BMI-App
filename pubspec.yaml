@@ -1,0 +1,27 @@
+name: bmi_calculator  # Updated the name to reflect your project
+description: "A simple BMI calculator app built with Flutter."  # Updated the description
+
+publish_to: 'none'  # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1  # Version number for your application
+
+environment:
+  sdk: ^3.5.3  # SDK version constraint
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  cupertino_icons: ^1.0.8  # Dependency for iOS style icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package contains recommended lints for good coding practices.
+  flutter_lints: ^4.0.0  # Dependency for linting
+
+flutter:
+  # Ensures that the Material Icons font is included with your application.
+  uses-material-design: true
